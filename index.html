@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -12,17 +12,18 @@
     <title>Starbucks</title>
 </head>
 <body>
+    <!-- Navbar Header -->
     <header>
         <nav class="navbar">
             <img src="img/logo-starbucks.png" alt="Logo Starbucks" class="logo">
 
-          <!--  <button class="btn btn-mobile">
-                <i class="fa-solid fa-bars"></i>
-            </button> -->
+         
 
-          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
-        </svg>
+         <button class="btn btn-mobile" aria-label="Abrir menu">
+            <i class="fa-solid fa-bars"></i>
+         </button>
+
+        
 
             <ul id="nav-links">
                 <li><a href="#home">Home</a></li>
@@ -31,11 +32,37 @@
                 <li><a href="#products">Novidades</a></li>
             </ul>
 
+             
             <a href="#" class="btn btn-default">Contato</a>
         </nav>
-    </header>
+    </header> <!-- fim header -->
 
 
-    <script src="Js/script.js"></script>
+    <!-- Main-->
+     <main id="container">
+
+        <section id="home">
+        <img src="img/detail.png" alt="Drink Starbucks" class="home-image">
+
+        <h1 class="home-title">
+        Mais que café, uma
+        <span>Experiência</span>
+        </h1>
+
+        <p class="home-description">
+        Descubra cafés incríveis, bebidas refrescantes e muito mais. Explore o mundo Starbucks e viva momentos únicos a cada gole.
+        </p>
+
+        <div class="home-actions">
+        <a href="#" class="btn btn-default">Conhecer</a>
+        <a href="#" class="btn btn-outlined">Contatar</a>
+        </div>
+        
+        </section>
+
+     </main> <!-- fim container-->
+
+
+    <script src="js/script.js"></script>
 </body>
 </html>
